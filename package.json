@@ -1,0 +1,35 @@
+{
+  "name": "vuepress-theme-celesta",
+  "version": "0.1.0",
+  "description": "Blog theme for vuepress-next",
+  "author": "Celeste <yuan.zx@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsznsznjsz/vuepress-theme-celesta/"
+  },
+  "keywords": [
+    "blog",
+    "vuepress",
+    "vuepress-theme"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/nsznsznjsz/vuepress-theme-celesta/",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tsparticles": "^1.18.11"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-alpha.19",
+    "@vuepress/core": "^2.0.0-alpha.19",
+    "@vuepress/plugin-debug": "^2.0.0-alpha.19",
+    "@vuepress/plugin-git": "^2.0.0-alpha.19",
+    "@vuepress/utils": "^2.0.0-alpha.19",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "vue": "^3.0.5",
+    "vue-loader": "16.1.2"
+  }
+}

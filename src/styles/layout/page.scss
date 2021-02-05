@@ -1,0 +1,26 @@
+@import "../_variables";
+@import "../mixins/wrapper";
+
+.page {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  &__content {
+    padding: 2.5rem;
+    padding-top: 0;
+  }
+
+  &__footer {
+    min-height: 5rem;
+  }
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 1rem;
+}
